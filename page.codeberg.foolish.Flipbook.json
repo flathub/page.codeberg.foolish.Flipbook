@@ -11,6 +11,23 @@
         "--socket=wayland"
     ],
     "modules": [
+    	{
+	      "name": "libportal",
+	      "buildsystem": "meson",
+	      "builddir": true,
+	      "config-opts": [
+		"-Dbackend-gtk4=enabled",
+		"-Ddocs=false"
+	      ],
+	      "sources": [
+		{
+		  "type": "git",
+		  "url": "https://github.com/flatpak/libportal.git",
+		  "commit" : "c23024018c8eb076549a1517fcb2d7f80d3e2ed5",
+		  "tag" : "0.10.0"
+		}
+	      ]
+	 },
         {
             "name": "flipbook",
             "builddir": true,
@@ -22,8 +39,8 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/foolish/Flipbook.git",
-                    "tag": "0.2",					
-                    "commit": "b277c4dc5db66ecf70db45d6e93e2938449e39ad"
+                    "tag": "0.31",					
+                    "commit": "9fd93a04877520f793775b1667957e8e394edbb8"
                 }
             ]
         }
