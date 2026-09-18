@@ -1,7 +1,7 @@
 {
     "id": "page.codeberg.foolish.Flipbook",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "command": "flipbook",
     "finish-args": [
@@ -39,8 +39,8 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/foolish/Flipbook.git",
-                    "tag": "v0.4",
-                    "commit": "cfbd4960c98695bca1c3c496798df647942b56bf"
+                    "tag": "v0.4.1",
+                    "commit": "bef0f6a82f55d666a47e738213f8ff21b6edd927"
                 }
             ]
         }
