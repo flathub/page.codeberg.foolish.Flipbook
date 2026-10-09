@@ -39,8 +39,8 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/foolish/Flipbook.git",
-                    "tag": "0.6",
-                    "commit": "d7ba84c9f8ccb541d13d47de812423699c34dd16"
+                    "tag": "v0.6",
+                    "commit": "aee0c7ed14c4aeb0dcc70b1264116d99686cc256"
                 }
             ]
         }
